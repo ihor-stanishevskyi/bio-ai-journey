@@ -10,6 +10,7 @@ including the ones that did not work.
 | Date | What |
 |------|------|
 | 2026-07-31 | Started. First run of IBM's MAMMAL protein foundation model. |
+| 2026-07-31 | Ran MAMMAL solubility inference on insulin B, lysozyme and a synthetic poly-GPP repeat. Model returned the same class for all three, with the highest confidence (0.998) on the sequence that should be least soluble. Open question: what does `pred: 1` actually encode, and how does the model behave out of distribution? |
 
 ## Current focus
 
